@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Michroma&display=swap");
+
+body {
+  background: linear-gradient(90deg, #0a15ff 0%, #2b2828 100%);
+  font-family: Michroma, serif;
+}
+
+.nav-link {
+  color: aliceblue;
+}
+
+.navbar-nav .nav-link.active {
+  color: rgb(148, 192, 230);
+}
+
+.navbar-toggler {
+  background-color: rgb(103, 99, 99);
+}
+
+.sidebar {
+  color: rgb(148, 192, 230);
+  background: linear-gradient(270deg, #0a15ff 0%, #2b2828 100%);
+}
+
+.card {
+  background: linear-gradient(270deg, #0a15ff 0%, #2b2828 100%);
+  color: rgb(203, 223, 241);
+}
+
+.col-lg-6 {
+  color: rgb(203, 223, 241);
+  margin: auto auto;
+}
+
+@media (max-width: 755px) {
+  .carousel-indicators {
+    display: none;
+  }
+}
+
+.footer-text {
+  color: rgb(203, 223, 241);
+  margin: auto auto;
+}
+
+footer,
+.btn-outline-primary {
+  background: linear-gradient(270deg, #0a15ff 0%, #2b2828 100%);
+}
+
+.call-anime {
+  animation: myAnim 2s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+  0%,
+  100% {
+    transform: translateX(0%);
+    transform-origin: 50% 50%;
+  }
+
+  15% {
+    transform: translateX(-30px) rotate(-6deg);
+  }
+
+  30% {
+    transform: translateX(15px) rotate(6deg);
+  }
+
+  45% {
+    transform: translateX(-15px) rotate(-3.6deg);
+  }
+
+  60% {
+    transform: translateX(9px) rotate(2.4deg);
+  }
+
+  75% {
+    transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+
+.media-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-help {
+  color: rgb(203, 223, 241);
+}
